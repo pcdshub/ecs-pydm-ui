@@ -1,0 +1,10 @@
+numpy
+numpydoc
+ophyd
+pcdsutils
+pydm
+pyqtgraph
+qtawesome
+qtconsole
+qtpy
+timechart

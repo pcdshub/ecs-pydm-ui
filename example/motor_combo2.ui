@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="1" column="1">
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMN:25&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../common/motor_small2.ui</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:18&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../common/motor_small2.ui</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:19&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../common/motor_small2.ui</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:17&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../common/motor_small2.ui</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
