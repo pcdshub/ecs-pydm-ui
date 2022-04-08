@@ -28,7 +28,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMN:25&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/motor_small2.ui</string>
+        <string>../widgets/motor_small2.ui</string>
        </property>
       </widget>
      </item>
@@ -41,7 +41,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:18&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/motor_small2.ui</string>
+        <string>../widgets/motor_small2.ui</string>
        </property>
       </widget>
      </item>
@@ -54,7 +54,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:19&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/motor_small2.ui</string>
+        <string>../widgets/motor_small2.ui</string>
        </property>
       </widget>
      </item>
@@ -67,7 +67,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:17&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/motor_small2.ui</string>
+        <string>../widgets/motor_small2.ui</string>
        </property>
       </widget>
      </item>

@@ -31,7 +31,7 @@
            <string/>
           </property>
           <property name="filename" stdset="0">
-           <string>./ipms.ui</string>
+           <string>../screens/ipms.ui</string>
           </property>
          </widget>
         </item>

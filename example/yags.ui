@@ -46,7 +46,7 @@
         <string>{&quot;PIM&quot;:&quot;HX2:SB1&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/yag.ui</string>
+        <string>../widgets/yag.ui</string>
        </property>
       </widget>
      </item>
@@ -59,7 +59,7 @@
         <string>{&quot;PIM&quot;:&quot;XPP:SB3&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/yag.ui</string>
+        <string>../widgets/yag.ui</string>
        </property>
       </widget>
      </item>

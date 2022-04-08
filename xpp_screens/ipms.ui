@@ -28,7 +28,7 @@
         <string>{&quot;IPM&quot;:&quot;HX2:SB1:IPM&quot;,&quot;BMMON&quot;:&quot;HX2:SB1:BMMON&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/ipm.ui</string>
+        <string>../widgets/ipm.ui</string>
        </property>
       </widget>
      </item>
@@ -41,7 +41,7 @@
         <string>{&quot;IPM&quot;:&quot;XPP:SB2:IPM&quot;,&quot;BMMON&quot;:&quot;XPP:SB2:BMMON&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/ipm.ui</string>
+        <string>../widgets/ipm.ui</string>
        </property>
       </widget>
      </item>
@@ -54,7 +54,7 @@
         <string>{&quot;IPM&quot;:&quot;XPP:SB3:IPM&quot;,&quot;BMMON&quot;:&quot;XPP:SB3:BMMON&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../common/ipm.ui</string>
+        <string>../widgets/ipm.ui</string>
        </property>
       </widget>
      </item>
