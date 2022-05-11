@@ -9,4 +9,4 @@ SCRIPT=$(basename "$0")
 SCRIPT=${SCRIPT%%.*}
 
 echo "Launching ${SCRIPT}.ui"
-pydm $MYDIR/$SCRIPT.ui
+pydm --hide-nav-bar $MYDIR/$SCRIPT.ui
