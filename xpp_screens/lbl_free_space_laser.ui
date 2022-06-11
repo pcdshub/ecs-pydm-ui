@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMN:25&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;NONE&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;NONE&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>Shutter 1</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+              <property name="toolTip">
+               <string/>
+              </property>
+              <property name="macros" stdset="0">
+               <string>{&quot;MPOD&quot;:&quot;XPP:R39:MPD:CH:0&quot;}</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>../widgets/mpod_on_off.ui</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Shutter 2</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+              <property name="toolTip">
+               <string/>
+              </property>
+              <property name="macros" stdset="0">
+               <string>{&quot;MPOD&quot;:&quot;XPP:R39:MPD:CH:1&quot;}</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>../widgets/mpod_on_off.ui</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Shutter 3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
+              <property name="toolTip">
+               <string/>
+              </property>
+              <property name="macros" stdset="0">
+               <string>{&quot;MPOD&quot;:&quot;XPP:R39:MPD:CH:2&quot;}</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>../widgets/mpod_on_off.ui</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>Shutter 4</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+              <property name="toolTip">
+               <string/>
+              </property>
+              <property name="macros" stdset="0">
+               <string>{&quot;MPOD&quot;:&quot;None&quot;}</string>
+              </property>
+              <property name="filename" stdset="0">
+               <string>../widgets/mpod_on_off.ui</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
