@@ -6,20 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>200</width>
-    <height>68</height>
+    <width>192</width>
+    <height>80</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>200</width>
+    <width>192</width>
     <height>68</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>200</width>
-    <height>68</height>
+    <width>192</width>
+    <height>80</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -28,6 +34,9 @@
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <property name="spacing">
@@ -35,6 +44,12 @@
        </property>
        <item>
         <widget class="PyDMPushButton" name="PyDMPushButton">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="maximumSize">
           <size>
            <width>65</width>
@@ -45,7 +60,7 @@
           <string/>
          </property>
          <property name="text">
-          <string>On</string>
+          <string>Open</string>
          </property>
          <property name="rules" stdset="0">
           <string>[{&quot;name&quot;: &quot;visible&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==0&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>
@@ -90,6 +105,12 @@
        </item>
        <item>
         <widget class="PyDMPushButton" name="PyDMPushButton_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="maximumSize">
           <size>
            <width>65</width>
@@ -100,7 +121,7 @@
           <string/>
          </property>
          <property name="text">
-          <string>Off</string>
+          <string>Close</string>
          </property>
          <property name="rules" stdset="0">
           <string>[{&quot;name&quot;: &quot;visible&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==${VAL}&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>

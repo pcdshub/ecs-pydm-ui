@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>771</width>
-    <height>300</height>
+    <width>818</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -19,7 +19,7 @@
   <property name="minimumSize">
    <size>
     <width>0</width>
-    <height>300</height>
+    <height>700</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -43,6 +43,124 @@
         <enum>QFrame::Raised</enum>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_6">
+        <property name="spacing">
+         <number>5</number>
+        </property>
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>5</number>
+        </property>
+        <property name="bottomMargin">
+         <number>5</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Motion</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:17&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:18&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:19&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:20&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:LAS:MMN:05&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="macros" stdset="0">
+           <string>{&quot;MOTOR&quot;:&quot;XPP:LAS:MMN:06&quot;}</string>
+          </property>
+          <property name="filename" stdset="0">
+           <string>../widgets/motor_small.ui</string>
+          </property>
+         </widget>
+        </item>
         <item>
          <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
           <property name="toolTip">
@@ -56,47 +174,8 @@
           </property>
          </widget>
         </item>
-        <item>
-         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
-          <property name="toolTip">
-           <string/>
-          </property>
-          <property name="macros" stdset="0">
-           <string>{&quot;MOTOR&quot;:&quot;NONE&quot;}</string>
-          </property>
-          <property name="filename" stdset="0">
-           <string>../widgets/motor_small.ui</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
-          <property name="toolTip">
-           <string/>
-          </property>
-          <property name="macros" stdset="0">
-           <string>{&quot;MOTOR&quot;:&quot;NONE&quot;}</string>
-          </property>
-          <property name="filename" stdset="0">
-           <string>../widgets/motor_small.ui</string>
-          </property>
-         </widget>
-        </item>
        </layout>
       </widget>
-     </item>
-     <item>
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
      </item>
      <item>
       <widget class="QFrame" name="frame_2">
@@ -113,6 +192,18 @@
         <enum>QFrame::Raised</enum>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Shutters</string>
+          </property>
+         </widget>
+        </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
@@ -201,7 +292,7 @@
             <item>
              <widget class="QLabel" name="label">
               <property name="text">
-               <string>Shutter 4</string>
+               <string>Free Space</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
@@ -214,14 +305,74 @@
                <string/>
               </property>
               <property name="macros" stdset="0">
-               <string>{&quot;MPOD&quot;:&quot;None&quot;}</string>
+               <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:14&quot;, &quot;VAL&quot;:4.5}</string>
               </property>
               <property name="filename" stdset="0">
-               <string>../widgets/mpod_on_off.ui</string>
+               <string>../widgets/ao_on_off.ui</string>
               </property>
              </widget>
             </item>
            </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_3">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>180</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>EVRs</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;EVR&quot;:&quot;XPP:USR:EVR:TRIG9&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/evr.ui</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>

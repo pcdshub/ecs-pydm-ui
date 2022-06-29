@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>189</width>
-    <height>107</height>
+    <width>322</width>
+    <height>291</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,10 +22,10 @@
         <string/>
        </property>
        <property name="macros" stdset="0">
-        <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:5.VAL&quot;,&quot;VAL&quot;:5}</string>
+        <string>{&quot;EVR&quot;:&quot;XPP:USR:EVR:TRIG9&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../widgets/ao_on_off.ui</string>
+        <string>../widgets/evr.ui</string>
        </property>
        <property name="loadWhenShown" stdset="0">
         <bool>true</bool>

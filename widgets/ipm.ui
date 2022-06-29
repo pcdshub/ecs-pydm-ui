@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>408</width>
-    <height>343</height>
+    <height>297</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,7 +26,7 @@
        </property>
        <property name="yAxes">
         <stringlist>
-         <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true}</string>
+         <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: null}</string>
         </stringlist>
        </property>
        <property name="maxRedrawRate" stdset="0">
@@ -34,7 +34,7 @@
        </property>
        <property name="curves">
         <stringlist>
-         <string>{&quot;channel&quot;: &quot;ca://${BMMON}:SUM&quot;, &quot;name&quot;: &quot;BMMON:SUM&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 3, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;}</string>
+         <string>{&quot;channel&quot;: &quot;ca://${BMMON}:SUM&quot;, &quot;plot_style&quot;: null, &quot;name&quot;: &quot;BMMON:SUM&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 3, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;}</string>
         </stringlist>
        </property>
        <property name="timeSpan">
