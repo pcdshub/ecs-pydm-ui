@@ -52,7 +52,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>65</width>
+           <width>60</width>
            <height>50</height>
           </size>
          </property>
@@ -63,7 +63,7 @@
           <string>Open</string>
          </property>
          <property name="rules" stdset="0">
-          <string>[{&quot;name&quot;: &quot;visible&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==0&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>
+          <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==0&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>
          </property>
          <property name="alarmSensitiveContent" stdset="0">
           <bool>false</bool>
@@ -113,7 +113,7 @@
          </property>
          <property name="maximumSize">
           <size>
-           <width>65</width>
+           <width>60</width>
            <height>50</height>
           </size>
          </property>
@@ -124,7 +124,7 @@
           <string>Close</string>
          </property>
          <property name="rules" stdset="0">
-          <string>[{&quot;name&quot;: &quot;visible&quot;, &quot;property&quot;: &quot;Visible&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==${VAL}&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>
+          <string>[{&quot;name&quot;: &quot;enable&quot;, &quot;property&quot;: &quot;Enable&quot;, &quot;initial_value&quot;: &quot;&quot;, &quot;expression&quot;: &quot;ch[0]==${VAL}&quot;, &quot;channels&quot;: [{&quot;channel&quot;: &quot;ca://${AO}.VAL&quot;, &quot;trigger&quot;: true, &quot;use_enum&quot;: true}]}]</string>
          </property>
          <property name="alarmSensitiveContent" stdset="0">
           <bool>false</bool>

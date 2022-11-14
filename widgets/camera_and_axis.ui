@@ -119,10 +119,16 @@
            <string/>
           </property>
           <property name="macros" stdset="0">
-           <string>{&quot;MOTOR&quot;:&quot;${MOT1}&quot;}</string>
+           <string>{&quot;MOTOR&quot;: &quot;${MOT1}&quot;}</string>
           </property>
           <property name="filename" stdset="0">
-           <string>./common/motor_tweak.ui</string>
+           <string>./widgets/motor_tweak.ui</string>
+          </property>
+          <property name="loadWhenShown" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="disconnectWhenHidden" stdset="0">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -132,10 +138,16 @@
            <string/>
           </property>
           <property name="macros" stdset="0">
-           <string>{&quot;MOTOR&quot;:&quot;${MOT2}&quot;}</string>
+           <string>{&quot;MOTOR&quot;: &quot;${MOT2}&quot;}</string>
           </property>
           <property name="filename" stdset="0">
-           <string>./common/motor_tweak.ui</string>
+           <string>./widgets/motor_tweak.ui</string>
+          </property>
+          <property name="loadWhenShown" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="disconnectWhenHidden" stdset="0">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
