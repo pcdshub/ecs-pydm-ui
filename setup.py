@@ -11,7 +11,7 @@ if len(git_requirements) > 0:
     print("User must install the following packages manually:\n" +
           "\n".join(f' {r}' for r in git_requirements))
 
-setup(name='typhos',
+setup(name='lcls1_screens',
       version=versioneer.get_version(),
       cmdclass=versioneer.get_cmdclass(),
       author='',

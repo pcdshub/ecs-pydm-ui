@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1823</width>
+    <height>1164</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;IPM&quot;: &quot;XPP:USR:IPM:01&quot;, &quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVTBUILDNOTT&quot;, &quot;XIDX&quot;: &quot;1&quot;, &quot;YIDX0&quot;: &quot;7&quot;, &quot;YIDX1&quot;: &quot;8&quot;, &quot;YIDX2&quot;: &quot;9&quot;, &quot;YIDX3&quot;: &quot;10&quot;, &quot;TITLE&quot;: &quot;IPM2 vs&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/diode_diag.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;IPM&quot;: &quot;XPP:SB3:IPM:02&quot;, &quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVTBUILDNOTT&quot;, &quot;XIDX&quot;: &quot;1&quot;, &quot;YIDX0&quot;: &quot;11&quot;, &quot;YIDX1&quot;: &quot;12&quot;, &quot;YIDX2&quot;: &quot;13&quot;, &quot;YIDX3&quot;: &quot;14&quot;, &quot;TITLE&quot;: &quot;IPM2 vs&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/diode_diag.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
