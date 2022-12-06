@@ -12,13 +12,13 @@ env:
 
     # Options to be passed to flake8 for package linting. Usually this is just
     # the package name but you can enable other flake8 options via this config
-    - PYTHON_LINT_OPTIONS="pymd-ui-lcls1"
+    - PYTHON_LINT_OPTIONS="pydm-ui-lcls1"
     # Options to be passed to pytest for package test. Often, this will be left
     # blank but can be used to enable custom pytest features
     #- PYTEST_ADDOPTS=""
 
     # The name of the conda package
-    - CONDA_PACKAGE="pymd-ui-lcls1"
+    - CONDA_PACKAGE="pydm-ui-lcls1"
     # The folder containing the conda recipe (meta.yaml)
     #- CONDA_RECIPE_FOLDER="conda-recipe"
     # Extra dependencies needed to run the tests which are not included
