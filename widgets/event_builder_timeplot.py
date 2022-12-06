@@ -15,7 +15,8 @@ TICK_FONT.setPixelSize(16)
 class EventBuilderTimeplot(Display):
     def __init__(self, parent=None, args=None, macros=None):
         """ 
-        Doc
+        Screen to plot time plots based of the ebuild waveform PV. Allows adjustement of 
+        the timespan via a QLineEdit.
         """
         super(EventBuilderTimeplot, self).__init__(parent=parent, args=args, macros=macros)
 
@@ -36,6 +37,6 @@ class EventBuilderTimeplot(Display):
     def update_timespan(self):
         timespan = int(self.le_timespan.text())
         print(f'Timespan update to {timespan}s.')
-        self.timeplot.setBufferSize(120*timespan)
+        self.timeplot.setBufferSize(120*timespan) # assume 120Hz data rate
         self.timeplot.setTimeSpan(timespan)
         return
