@@ -79,7 +79,7 @@
           <string>{&quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVTBUILDNOTT&quot;, &quot;IDX&quot;: &quot;0&quot;, &quot;TITLE&quot;: &quot;IPM1&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/event_builder_timeplot.ui</string>
+          <string>../widgets/event_builder_timeplot.py</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -104,7 +104,7 @@
           <string>{&quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVTBUILDNOTT&quot;, &quot;TITLE&quot;: &quot;IPM2&quot;, &quot;IDX&quot;: &quot;1&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/event_builder_timeplot.ui</string>
+          <string>../widgets/event_builder_timeplot.py</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -192,7 +192,7 @@
           <string>{&quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVENTBUILD&quot;, &quot;IDX&quot;: &quot;16&quot;, &quot;TITLE&quot;: &quot;TT PS&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/event_builder_timeplot.ui</string>
+          <string>../widgets/event_builder_timeplot.py</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
