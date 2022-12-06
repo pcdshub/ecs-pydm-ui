@@ -1,5 +1,3 @@
-os
-argparse
 qtpy
 ophyd
 pydm

@@ -12,13 +12,13 @@ env:
 
     # Options to be passed to flake8 for package linting. Usually this is just
     # the package name but you can enable other flake8 options via this config
-    - PYTHON_LINT_OPTIONS="pymd-ui-lcls1"
+    #- PYTHON_LINT_OPTIONS="pymd-ui-lcls1"
     # Options to be passed to pytest for package test. Often, this will be left
     # blank but can be used to enable custom pytest features
-    - PYTEST_ADDOPTS=""
+    #- PYTEST_ADDOPTS=""
 
     # The name of the conda package
-    - CONDA_PACKAGE="pymd-ui-lcls1"
+    #- CONDA_PACKAGE="pymd-ui-lcls1"
     # The folder containing the conda recipe (meta.yaml)
     #- CONDA_RECIPE_FOLDER="conda-recipe"
     # Extra dependencies needed to run the tests which are not included
@@ -29,7 +29,7 @@ env:
 
     # Extra dependencies needed to run the test with Pip (similar to
     # CONDA_EXTRAS) but for pip
-    - PIP_EXTRAS="PyQt5 happi"
+    #- PIP_EXTRAS="PyQt5 happi"
 
 # Uncomment this block if you would like to make the Python PIP test an allowed
 # failure
@@ -72,7 +72,7 @@ import:
 #  - name: deploy
 #    if: (branch = master OR tag IS present) AND type != pull_request
 #
-#import:
+import:
 #  # Build Stage
 #  - pcdshub/pcds-ci-helpers:travis/shared_configs/anaconda-build.yml
 #  - pcdshub/pcds-ci-helpers:travis/shared_configs/python-tester-pip.yml
