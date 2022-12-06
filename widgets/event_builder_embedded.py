@@ -1,7 +1,6 @@
 from os import path
-import argparse
 
-from qtpy.QtCore import Slot, Property, Qt
+from qtpy.QtCore import Slot
 from qtpy.QtGui import QFont, QIntValidator
 
 from pydm import Display
@@ -23,7 +22,7 @@ class EventBuilderEmbedded(Display):
 
         # Get curve and buffer
         #self.curve = self.event_plot._curves[0]
-        #self.le_buffer.setValidator(QIntValidator()) # only accept int as input
+        #self.le_buffer.setValidator(QIntValidator())  # only accept int
         #self.le_buffer.setText(str(self.curve._bufferSize))
 
         # Get EventBuilder PV and its description
@@ -42,26 +41,28 @@ class EventBuilderEmbedded(Display):
         # Connect signals
         # buffer signal ?
         return
-    
+
     def ui_filename(self):
         return 'event_builder_embedded.ui'
 
     def ui_filepath(self):
-        return path.join(path.dirname(path.realpath(__file__)), self.ui_filename())
-    
+        return path.join(path.dirname(path.realpath(__file__)),
+                         self.ui_filename())
+
     def parse_description(self):
-        """ 
+        """
         Parse the EventBuilder description PV.
         This PV contains a comma-separated description of each entries in the
-        EventBuilder PV. It is converted to a list and passed to the combo boxes.
+        EventBuilder PV. It is converted to a list and passed to the combo
+        boxes.
         """
         description = self.description_signal.get()
         self.description = description.split(',')
         self.num_entries = len(self.description)
-        print(f'Event builder entries (total {self.num_entries}): ' 
+        print(f'Event builder entries (total {self.num_entries}): '
               + ', '.join(self.description) + '.')
         return
-    
+
     @Slot()
     def update_buffer_size(self):
         bufferSize = int(self.le_buffer.text())
@@ -74,17 +75,17 @@ class EventBuilderEmbedded(Display):
         x_label = self.description[self.x_idx]
         y_label = self.description[self.y_idx]
         self.event_plot.setLabel(
-            'bottom', 
+            'bottom',
             f'<font size="{AXIS_LABEL_FONT_SIZE}">{x_label}<\font size>'
         )
         self.event_plot.setLabel(
-            'Axis 1', 
+            'Axis 1',
             f'<font size="{AXIS_LABEL_FONT_SIZE}">{y_label}<\font size>'
         )
         return
-     
+
     def set_plot_layout(self):
-        """ 
+        """
         Various formatting of the EventBuilder plot.
         Run once when starting the GUI.
         """

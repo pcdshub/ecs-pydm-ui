@@ -1,7 +1,6 @@
 from os import path
-import argparse
 
-from qtpy.QtCore import Slot, Property, Qt
+from qtpy.QtCore import Slot
 from qtpy.QtGui import QFont, QIntValidator
 
 from pydm import Display
@@ -15,8 +14,9 @@ TICK_FONT.setPixelSize(16)
 
 class EventBuilder(Display):
     def __init__(self, parent=None, args=None, macros=None):
-        """ 
-        Simple screen to make correlation plots between two variables from an EventBuilder IOC.
+        """
+        Simple screen to make correlation plots between two variables from an
+        EventBuilder IOC.
         To start, run:
             pydm event_builder.py <EVENTBUILD_PV>
         """
@@ -24,7 +24,7 @@ class EventBuilder(Display):
 
         # Get curve and buffer
         self.curve = self.event_plot._curves[0]
-        self.le_buffer.setValidator(QIntValidator()) # only accept int as input
+        self.le_buffer.setValidator(QIntValidator())  # only accept int
         self.le_buffer.setText(str(self.curve._bufferSize))
 
         # Get EventBuilder PV and its description
@@ -34,7 +34,7 @@ class EventBuilder(Display):
         description_pv = self.event_builder_pv + ':DESC'
         self.description_signal = EpicsSignal(description_pv, string=True)
         self.parse_description()
-        
+
         self.set_plot_layout()
         self.update_axis_label()
 
@@ -44,34 +44,34 @@ class EventBuilder(Display):
         self.le_buffer.returnPressed.connect(self.update_buffer_size)
         return
 
-    
     def ui_filename(self):
         return 'event_builder.ui'
 
-    
     def ui_filepath(self):
-        return path.join(path.dirname(path.realpath(__file__)), self.ui_filename())
-    
-    
+        return path.join(
+            path.dirname(path.realpath(__file__)),
+            self.ui_filename()
+            )
+
     def parse_description(self):
-        """ 
+        """
         Parse the EventBuilder description PV.
         This PV contains a comma-separated description of each entries in the
-        EventBuilder PV. It is converted to a list and passed to the combo boxes.
+        EventBuilder PV. It is converted to a list and passed to the combo
+        boxes.
         """
         description = self.description_signal.get()
         self.entries = description.split(',')
         self.num_entries = len(self.entries)
-        print(f'Event builder entries (total {self.num_entries}): ' 
+        print(f'Event builder entries (total {self.num_entries}): '
               + ', '.join(self.entries) + '.')
-        
+
         # add EventBuild entries to combo boxes
         self.cb_x.clear()
         self.cb_y.clear()
         self.cb_x.addItems(self.entries)
         self.cb_y.addItems(self.entries)
         return
-    
 
     @Slot()
     def update_buffer_size(self):
@@ -81,10 +81,9 @@ class EventBuilder(Display):
         print(f'New buffer size: {self.curve._bufferSize}')
         return
 
-    
     @Slot()
     def update_plot_axis(self):
-        """ 
+        """
         Updates the plot based on the choice made in the x and y combo box.
         """
         self.curve.initialize_buffer()
@@ -95,24 +94,22 @@ class EventBuilder(Display):
 
         self.update_axis_label()
         return
-    
-    
+
     def update_axis_label(self):
         x_label = self.cb_x.currentText()
         y_label = self.cb_y.currentText()
         self.event_plot.setLabel(
-            'bottom', 
+            'bottom',
             f'<font size="{AXIS_LABEL_FONT_SIZE}">{x_label}<\font size>'
         )
         self.event_plot.setLabel(
-            'Axis 1', 
+            'Axis 1',
             f'<font size="{AXIS_LABEL_FONT_SIZE}">{y_label}<\font size>'
         )
         return
-    
-    
+
     def set_plot_layout(self):
-        """ 
+        """
         Various formatting of the EventBuilder plot.
         Run once when starting the GUI.
         """
