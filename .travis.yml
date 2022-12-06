@@ -12,7 +12,7 @@ env:
 
     # Options to be passed to flake8 for package linting. Usually this is just
     # the package name but you can enable other flake8 options via this config
-    - PYTHON_LINT_OPTIONS="pydm-ui-lcls1"
+    - PYTHON_LINT_OPTIONS=""
     # Options to be passed to pytest for package test. Often, this will be left
     # blank but can be used to enable custom pytest features
     #- PYTEST_ADDOPTS=""
