@@ -1,37 +1,29 @@
 from os import path
-import argparse
 
 from qtpy.QtCore import Slot, Property, Qt
 from qtpy.QtGui import QFont, QIntValidator
 
 from pydm import Display
-from ophyd import EpicsSignal
-
-
-AXIS_LABEL_FONT_SIZE = 5
-TICK_FONT = QFont()
-TICK_FONT.setPixelSize(16)
 
 class EventBuilderTimeplot(Display):
     def __init__(self, parent=None, args=None, macros=None):
         """ 
-        Screen to plot time plots based of the ebuild waveform PV. Allows adjustement of 
-        the timespan via a QLineEdit.
+        Screen to plot time plots based of the ebuild waveform PV.
+        Allows adjustement of the timespan via a QLineEdit.
         """
-        super(EventBuilderTimeplot, self).__init__(parent=parent, args=args, macros=macros)
+        super().__init__(parent=parent, args=args, macros=macros)
+
+        self.le_timespan.setValidator(QIntValidator()) # only accept int as input
 
         # Connect signals
         self.le_timespan.returnPressed.connect(self.update_timespan)
         return
 
-    
     def ui_filename(self):
         return 'event_builder_timeplot.ui'
 
-
     def ui_filepath(self):
         return path.join(path.dirname(path.realpath(__file__)), self.ui_filename())
-
 
     @Slot()
     def update_timespan(self):

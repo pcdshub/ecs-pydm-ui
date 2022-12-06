@@ -16,10 +16,10 @@ TICK_FONT.setPixelSize(16)
 class EventBuilderEmbedded(Display):
     def __init__(self, parent=None, args=None, macros=None):
         """ 
-        Simple screen to make embedded correlation plots between two variables 
+        Simple screen to make embedded correlation plots between two variables
         from an EventBuilder IOC.
         """
-        super(EventBuilderEmbedded, self).__init__(parent=parent, args=args, macros=macros)
+        super().__init__(parent=parent, args=args, macros=macros)
 
         # Get curve and buffer
         #self.curve = self.event_plot._curves[0]

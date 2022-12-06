@@ -20,7 +20,7 @@ class EventBuilder(Display):
         To start, run:
             pydm event_builder.py <EVENTBUILD_PV>
         """
-        super(EventBuilder, self).__init__(parent=parent, args=args, macros=macros)
+        super().__init__(parent=parent, args=args, macros=macros)
 
         # Get curve and buffer
         self.curve = self.event_plot._curves[0]
