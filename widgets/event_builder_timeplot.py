@@ -1,9 +1,10 @@
 from os import path
 
-from qtpy.QtCore import Slot, Property, Qt
+from qtpy.QtCore import Slot
 from qtpy.QtGui import QFont, QIntValidator
 
 from pydm import Display
+
 
 class EventBuilderTimeplot(Display):
     def __init__(self, parent=None, args=None, macros=None):
@@ -13,7 +14,7 @@ class EventBuilderTimeplot(Display):
         """
         super().__init__(parent=parent, args=args, macros=macros)
 
-        self.le_timespan.setValidator(QIntValidator()) # only accept int as input
+        self.le_timespan.setValidator(QIntValidator()) # only accept int
 
         # Connect signals
         self.le_timespan.returnPressed.connect(self.update_timespan)
@@ -23,7 +24,8 @@ class EventBuilderTimeplot(Display):
         return 'event_builder_timeplot.ui'
 
     def ui_filepath(self):
-        return path.join(path.dirname(path.realpath(__file__)), self.ui_filename())
+        return path.join(path.dirname(path.realpath(__file__)),
+                         self.ui_filename())
 
     @Slot()
     def update_timespan(self):

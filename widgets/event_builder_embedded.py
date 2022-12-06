@@ -1,7 +1,7 @@
 from os import path
 
 from qtpy.QtCore import Slot
-from qtpy.QtGui import QFont, QIntValidator
+from qtpy.QtGui import QFont
 
 from pydm import Display
 from ophyd import EpicsSignal
@@ -14,16 +14,11 @@ TICK_FONT.setPixelSize(16)
 
 class EventBuilderEmbedded(Display):
     def __init__(self, parent=None, args=None, macros=None):
-        """ 
+        """
         Simple screen to make embedded correlation plots between two variables
         from an EventBuilder IOC.
         """
         super().__init__(parent=parent, args=args, macros=macros)
-
-        # Get curve and buffer
-        #self.curve = self.event_plot._curves[0]
-        #self.le_buffer.setValidator(QIntValidator())  # only accept int
-        #self.le_buffer.setText(str(self.curve._bufferSize))
 
         # Get EventBuilder PV and its description
         event_builder_pv = self.event_plot.channels()[0].address
