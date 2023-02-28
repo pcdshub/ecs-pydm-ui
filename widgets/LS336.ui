@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>524</width>
-    <height>452</height>
+    <height>469</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -55,7 +55,9 @@ Lakeshore 336
          <stringlist/>
         </property>
         <property name="commands" stdset="0">
-         <stringlist/>
+         <stringlist>
+          <string>motor-expert-screen XPP:USR:MMS:17</string>
+         </stringlist>
         </property>
         <property name="passwordProtected" stdset="0">
          <bool>false</bool>
@@ -121,7 +123,7 @@ Lakeshore 336
            <string/>
           </property>
           <property name="precision" stdset="0">
-           <number>3</number>
+           <number>0</number>
           </property>
           <property name="showUnits" stdset="0">
            <bool>false</bool>
@@ -155,7 +157,7 @@ Lakeshore 336
            <string/>
           </property>
           <property name="precision" stdset="0">
-           <number>3</number>
+           <number>0</number>
           </property>
           <property name="showUnits" stdset="0">
            <bool>false</bool>
@@ -202,7 +204,7 @@ Lakeshore 336
            <string/>
           </property>
           <property name="precision" stdset="0">
-           <number>3</number>
+           <number>0</number>
           </property>
           <property name="showUnits" stdset="0">
            <bool>false</bool>
@@ -236,7 +238,7 @@ Lakeshore 336
            <string/>
           </property>
           <property name="precision" stdset="0">
-           <number>3</number>
+           <number>0</number>
           </property>
           <property name="showUnits" stdset="0">
            <bool>false</bool>
