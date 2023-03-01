@@ -18,6 +18,6 @@ docs/source/generated/*
 .pytest_cache
 .vscode
 
-custom
+#custom
 ./widgets/test.ui
 ./widgets/test.py
