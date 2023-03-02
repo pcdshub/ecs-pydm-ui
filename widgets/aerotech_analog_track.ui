@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>770</width>
-    <height>225</height>
+    <height>200</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>770</width>
-    <height>225</height>
+    <height>200</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -37,6 +37,12 @@
      <layout class="QVBoxLayout" name="verticalLayout_4">
       <item>
        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
         <property name="toolTip">
          <string/>
         </property>
