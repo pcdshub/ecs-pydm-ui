@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>524</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="PyDMShellCommand" name="PyDMShellCommand">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="text">
+         <string>Lakeshore 336 controls</string>
+        </property>
+        <property name="showIcon" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="commands" stdset="0">
+         <stringlist>
+          <string>./widgets/ls336.sh ${CTRL}</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="3" column="1">
+         <widget class="PyDMLabel" name="PyDMLabel_4">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="precision" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="showUnits" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="precisionFromPV" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="channel" stdset="0">
+           <string>ca://${CTRL}:GET_TEMP_D</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>T1</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="PyDMTimePlot" name="PyDMTimePlot">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="showXGrid">
+           <bool>false</bool>
+          </property>
+          <property name="showYGrid">
+           <bool>false</bool>
+          </property>
+          <property name="yAxes">
+           <stringlist>
+            <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+           </stringlist>
+          </property>
+          <property name="mouseEnabledX" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="mouseEnabledY" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="curves">
+           <stringlist>
+            <string>{&quot;channel&quot;: &quot;ca://${CTRL}:GET_TEMP_A&quot;, &quot;plot_style&quot;: &quot;Line&quot;, &quot;name&quot;: &quot;TEMP_A&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;}</string>
+           </stringlist>
+          </property>
+          <property name="bufferSize">
+           <number>600</number>
+          </property>
+          <property name="updateMode" stdset="0">
+           <enum>PyDMTimePlot::AtFixedRate</enum>
+          </property>
+          <property name="timeSpan">
+           <double>600.000000000000000</double>
+          </property>
+          <property name="updateInterval">
+           <double>1.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="PyDMTimePlot" name="PyDMTimePlot_4">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="yAxes">
+           <stringlist>
+            <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+           </stringlist>
+          </property>
+          <property name="mouseEnabledY" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="curves">
+           <stringlist>
+            <string>{&quot;channel&quot;: &quot;ca://${CTRL}:GET_TEMP_D&quot;, &quot;plot_style&quot;: null, &quot;name&quot;: &quot;TEMP_D&quot;, &quot;color&quot;: &quot;#ff9daf&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;}</string>
+           </stringlist>
+          </property>
+          <property name="bufferSize">
+           <number>600</number>
+          </property>
+          <property name="updateMode" stdset="0">
+           <enum>PyDMTimePlot::AtFixedRate</enum>
+          </property>
+          <property name="timeSpan">
+           <double>600.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>T3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="PyDMLabel" name="PyDMLabel_2">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="precision" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="showUnits" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="precisionFromPV" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="channel" stdset="0">
+           <string>ca://${CTRL}:GET_TEMP_B</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>T2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="PyDMLabel" name="PyDMLabel_3">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="precision" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="showUnits" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="precisionFromPV" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="channel" stdset="0">
+           <string>ca://${CTRL}:GET_TEMP_C</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="PyDMTimePlot" name="PyDMTimePlot_2">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="yAxes">
+           <stringlist>
+            <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+           </stringlist>
+          </property>
+          <property name="mouseEnabledY" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="curves">
+           <stringlist>
+            <string>{&quot;channel&quot;: &quot;ca://${CTRL}:GET_TEMP_B&quot;, &quot;plot_style&quot;: null, &quot;name&quot;: &quot;TEMP_B&quot;, &quot;color&quot;: &quot;#55aa00&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;}</string>
+           </stringlist>
+          </property>
+          <property name="bufferSize">
+           <number>600</number>
+          </property>
+          <property name="updateMode" stdset="0">
+           <enum>PyDMTimePlot::AtFixedRate</enum>
+          </property>
+          <property name="timeSpan">
+           <double>600.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="PyDMTimePlot" name="PyDMTimePlot_3">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="yAxes">
+           <stringlist>
+            <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+           </stringlist>
+          </property>
+          <property name="mouseEnabledY" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="curves">
+           <stringlist>
+            <string>{&quot;channel&quot;: &quot;ca://${CTRL}:GET_TEMP_C&quot;, &quot;plot_style&quot;: null, &quot;name&quot;: &quot;TEMP_C&quot;, &quot;color&quot;: &quot;#00aaff&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;}</string>
+           </stringlist>
+          </property>
+          <property name="bufferSize">
+           <number>600</number>
+          </property>
+          <property name="updateMode" stdset="0">
+           <enum>PyDMTimePlot::AtFixedRate</enum>
+          </property>
+          <property name="timeSpan">
+           <double>600.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="font">
+           <font>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>T4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="PyDMLabel" name="PyDMLabel">
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="precision" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="showUnits" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="precisionFromPV" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="channel" stdset="0">
+           <string>ca://${CTRL}:GET_TEMP_A</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMTimePlot</class>
+   <extends>QGraphicsView</extends>
+   <header>pydm.widgets.timeplot</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMShellCommand</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.shell_command</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
