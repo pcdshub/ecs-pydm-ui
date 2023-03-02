@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>579</width>
-    <height>535</height>
+    <width>800</width>
+    <height>220</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>220</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -18,14 +24,20 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>250</height>
+        </size>
+       </property>
        <property name="toolTip">
         <string/>
        </property>
        <property name="macros" stdset="0">
-        <string>{&quot;EBUILDPV&quot;: &quot;XPP:TT:01:EVTBUILDNOTT&quot;, &quot;IDX&quot;: &quot;1&quot;}</string>
+        <string>{&quot;BASE&quot;: &quot;XPP:ENS:01&quot;, &quot;AXIS&quot;: &quot;0&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>./event_builder_timeplot.py</string>
+        <string>../widgets/aerotech_analog_track.ui</string>
        </property>
        <property name="loadWhenShown" stdset="0">
         <bool>true</bool>
