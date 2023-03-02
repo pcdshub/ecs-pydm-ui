@@ -106,14 +106,44 @@
        <property name="text">
         <string>&lt;&lt;</string>
        </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://${MOTOR}.TWR</string>
+       </property>
+       <property name="passwordProtected" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="password" stdset="0">
+        <string/>
+       </property>
+       <property name="protectedPassword" stdset="0">
+        <string/>
+       </property>
+       <property name="showConfirmDialog" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="confirmMessage" stdset="0">
+        <string>Are you sure you want to proceed?</string>
        </property>
        <property name="pressValue" stdset="0">
         <string>1</string>
        </property>
+       <property name="releaseValue" stdset="0">
+        <string>None</string>
+       </property>
        <property name="relativeChange" stdset="0">
-        <bool>true</bool>
+        <bool>false</bool>
+       </property>
+       <property name="writeWhenRelease" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -265,14 +295,44 @@
        <property name="text">
         <string>&gt;&gt;</string>
        </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
        <property name="channel" stdset="0">
         <string>ca://${MOTOR}.TWF</string>
+       </property>
+       <property name="passwordProtected" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="password" stdset="0">
+        <string/>
+       </property>
+       <property name="protectedPassword" stdset="0">
+        <string/>
+       </property>
+       <property name="showConfirmDialog" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="confirmMessage" stdset="0">
+        <string>Are you sure you want to proceed?</string>
        </property>
        <property name="pressValue" stdset="0">
         <string>1</string>
        </property>
+       <property name="releaseValue" stdset="0">
+        <string>None</string>
+       </property>
        <property name="relativeChange" stdset="0">
-        <bool>true</bool>
+        <bool>false</bool>
+       </property>
+       <property name="writeWhenRelease" stdset="0">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
