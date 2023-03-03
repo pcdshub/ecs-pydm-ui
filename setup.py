@@ -14,7 +14,7 @@ if len(git_requirements) > 0:
 setup(name='lcls1_screens',
       version=versioneer.get_version(),
       cmdclass=versioneer.get_cmdclass(),
-      author='',
+      author='ECS',
       packages=find_packages(),
       include_package_data=True,
       install_requires=requirements,

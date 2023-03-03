@@ -58,7 +58,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:17&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../widgets/motor_small.ui</string>
+        <string>../widgets/positioner_row.ui</string>
        </property>
       </widget>
      </item>
@@ -77,7 +77,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:18&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../widgets/motor_small.ui</string>
+        <string>../widgets/positioner_row.ui</string>
        </property>
       </widget>
      </item>
@@ -96,7 +96,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMS:19&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../widgets/motor_small.ui</string>
+        <string>../widgets/positioner_row.ui</string>
        </property>
       </widget>
      </item>
@@ -115,7 +115,7 @@
         <string>{&quot;MOTOR&quot;:&quot;XPP:USR:MMN:25&quot;}</string>
        </property>
        <property name="filename" stdset="0">
-        <string>../widgets/motor_small.ui</string>
+        <string>../widgets/positioner_row.ui</string>
        </property>
        <property name="loadWhenShown" stdset="0">
         <bool>true</bool>

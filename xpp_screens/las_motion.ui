@@ -65,7 +65,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:02&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -84,7 +84,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:01&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -121,7 +121,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:03&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -158,7 +158,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:06&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -177,7 +177,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:07&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -196,7 +196,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:02&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -233,7 +233,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:10&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
@@ -252,7 +252,7 @@
              <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:09&quot;}</string>
             </property>
             <property name="filename" stdset="0">
-             <string>../widgets/motor_small.ui</string>
+             <string>../widgets/positioner_row.ui</string>
             </property>
             <property name="loadWhenShown" stdset="0">
              <bool>true</bool>
