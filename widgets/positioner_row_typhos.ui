@@ -427,7 +427,7 @@
         </property>
         <property name="commands" stdset="0">
          <stringlist>
-          <string>motor-expert-screen ${MOTOR}</string>
+          <string>motor-typhos ${MOTOR}</string>
          </stringlist>
         </property>
        </widget>
