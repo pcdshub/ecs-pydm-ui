@@ -55,7 +55,7 @@ class EventBuilderEmbedded(Display):
         self.description = description.split(',')
         self.num_entries = len(self.description)
         print(f'Event builder entries (total {self.num_entries}): '
-              + ', '.join(self.description) + '.')
+              ', '.join(self.description) + '.')
         return
 
     @Slot()

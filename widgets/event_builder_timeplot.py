@@ -31,6 +31,6 @@ class EventBuilderTimeplot(Display):
     def update_timespan(self):
         timespan = int(self.le_timespan.text())
         print(f'Timespan update to {timespan}s.')
-        self.timeplot.setBufferSize(120*timespan)  # assume 120Hz data rate
+        self.timeplot.setBufferSize(120 * timespan)  # assume 120Hz data rate
         self.timeplot.setTimeSpan(timespan)
         return

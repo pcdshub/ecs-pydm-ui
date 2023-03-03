@@ -51,7 +51,7 @@ class EventBuilder(Display):
         return path.join(
             path.dirname(path.realpath(__file__)),
             self.ui_filename()
-            )
+        )
 
     def parse_description(self):
         """
@@ -64,7 +64,7 @@ class EventBuilder(Display):
         self.entries = description.split(',')
         self.num_entries = len(self.entries)
         print(f'Event builder entries (total {self.num_entries}): '
-              + ', '.join(self.entries) + '.')
+              ', '.join(self.entries) + '.')
 
         # add EventBuild entries to combo boxes
         self.cb_x.clear()
