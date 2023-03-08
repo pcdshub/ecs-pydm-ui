@@ -1,4 +1,3 @@
-import versioneer
 from setuptools import setup, find_packages
 
 
@@ -12,8 +11,6 @@ if len(git_requirements) > 0:
           "\n".join(f' {r}' for r in git_requirements))
 
 setup(name='lcls1_screens',
-      version=versioneer.get_version(),
-      cmdclass=versioneer.get_cmdclass(),
       author='ECS',
       packages=find_packages(),
       include_package_data=True,
