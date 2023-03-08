@@ -1,0 +1,11 @@
+[run]
+source =
+    ecs-pydm-ui
+[report]
+omit =
+    #versioning
+    .*version.*
+    *_version.py
+    #tests
+    *test*
+    ecs-pydm-ui/tests/*
