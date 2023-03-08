@@ -1,9 +1,8 @@
 from os import path
 
+from pydm import Display
 from qtpy.QtCore import Slot
 from qtpy.QtGui import QIntValidator
-
-from pydm import Display
 
 
 class EventBuilderTimeplot(Display):

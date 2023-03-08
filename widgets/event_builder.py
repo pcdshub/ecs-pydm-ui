@@ -1,11 +1,9 @@
 from os import path
 
+from ophyd import EpicsSignal
+from pydm import Display
 from qtpy.QtCore import Slot
 from qtpy.QtGui import QFont, QIntValidator
-
-from pydm import Display
-from ophyd import EpicsSignal
-
 
 AXIS_LABEL_FONT_SIZE = 5
 TICK_FONT = QFont()
