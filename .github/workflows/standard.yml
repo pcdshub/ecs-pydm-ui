@@ -22,4 +22,4 @@ jobs:
 #      pip-testing-extras: "PyQt5 happi"
       # Set if using setuptools-scm for the conda-build workflow
 #      iuse-setuptools-scm: true
-    uses: pcdshub/pcds-ci-helpers/blob/master/.github/workflows/pre-commit.yml@master
+    uses: pcdshub/pcds-ci-helpers/blob/master/.github/workflows/pre-commit.yml
