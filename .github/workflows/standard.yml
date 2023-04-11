@@ -10,16 +10,16 @@ on:
 jobs:
   standard:
     #uses: pcdshub/pcds-ci-helpers/.github/workflows/python-standard.yml@master
-    uses: pcdshub/pcds-ci-helpers/blob/master/.github/workflows/pre-commit.yml@master
-    with:
+#    with:
       # The workflow needs to know the package name.  This can be determined
       # automatically if the repository name is the same as the import name.
-      package-name: "ecs-pydm-ui"
+#      package-name: "ecs-pydm-ui"
       # Extras that will be installed for both conda/pip:
-      testing-extras: ""
+#      testing-extras: ""
       # Extras to be installed only for conda-based testing:
-      conda-testing-extras: ""
+#      conda-testing-extras: ""
       # Extras to be installed only for pip-based testing:
-      pip-testing-extras: "PyQt5 happi"
+#      pip-testing-extras: "PyQt5 happi"
       # Set if using setuptools-scm for the conda-build workflow
-      use-setuptools-scm: true
+#      iuse-setuptools-scm: true
+    uses: pcdshub/pcds-ci-helpers/blob/master/.github/workflows/pre-commit.yml@master
