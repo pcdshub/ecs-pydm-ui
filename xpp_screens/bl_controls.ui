@@ -161,7 +161,7 @@
                     <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:16&quot;}</string>
                    </property>
                    <property name="filename" stdset="0">
-                    <string>../widgets/motor_small.ui</string>
+                    <string>../widgets/positioner_row.ui</string>
                    </property>
                   </widget>
                  </item>
@@ -342,7 +342,7 @@
                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:13&quot;}</string>
                  </property>
                  <property name="filename" stdset="0">
-                  <string>../widgets/motor_small.ui</string>
+                  <string>../widgets/positioner_row.ui</string>
                  </property>
                 </widget>
                </item>
@@ -355,7 +355,7 @@
                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:14&quot;}</string>
                  </property>
                  <property name="filename" stdset="0">
-                  <string>../widgets/motor_small.ui</string>
+                  <string>../widgets/positioner_row.ui</string>
                  </property>
                 </widget>
                </item>
@@ -368,7 +368,7 @@
                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:15&quot;}</string>
                  </property>
                  <property name="filename" stdset="0">
-                  <string>../widgets/motor_small.ui</string>
+                  <string>../widgets/positioner_row.ui</string>
                  </property>
                 </widget>
                </item>
@@ -501,7 +501,7 @@
                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:14&quot;, &quot;VAL&quot;:4.5}</string>
                    </property>
                    <property name="filename" stdset="0">
-                    <string>../widgets/ao_shutter.ui</string>
+                    <string>../widgets/acromag_ao_shutter.ui</string>
                    </property>
                   </widget>
                  </item>
@@ -534,7 +534,7 @@
                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:13&quot;, &quot;VAL&quot;:4.5}</string>
                    </property>
                    <property name="filename" stdset="0">
-                    <string>../widgets/ao_shutter.ui</string>
+                    <string>../widgets/acromag_ao_shutter.ui</string>
                    </property>
                   </widget>
                  </item>
@@ -567,7 +567,7 @@
                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:15&quot;, &quot;VAL&quot;:4.5}</string>
                    </property>
                    <property name="filename" stdset="0">
-                    <string>../widgets/ao_shutter.ui</string>
+                    <string>../widgets/acromag_ao_shutter.ui</string>
                    </property>
                   </widget>
                  </item>

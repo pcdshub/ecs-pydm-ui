@@ -1,11 +1,9 @@
 from os import path
 
+from ophyd import EpicsSignal
+from pydm import Display
 from qtpy.QtCore import Slot
 from qtpy.QtGui import QFont, QIntValidator
-
-from pydm import Display
-from ophyd import EpicsSignal
-
 
 AXIS_LABEL_FONT_SIZE = 5
 TICK_FONT = QFont()
@@ -51,7 +49,7 @@ class EventBuilder(Display):
         return path.join(
             path.dirname(path.realpath(__file__)),
             self.ui_filename()
-            )
+        )
 
     def parse_description(self):
         """
@@ -64,7 +62,7 @@ class EventBuilder(Display):
         self.entries = description.split(',')
         self.num_entries = len(self.entries)
         print(f'Event builder entries (total {self.num_entries}): '
-              + ', '.join(self.entries) + '.')
+              ', '.join(self.entries) + '.')
 
         # add EventBuild entries to combo boxes
         self.cb_x.clear()

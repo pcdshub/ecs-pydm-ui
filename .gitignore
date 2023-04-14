@@ -18,6 +18,9 @@ docs/source/generated/*
 .pytest_cache
 .vscode
 
+# nfs
+.nfs*
+
 #custom
 ./widgets/test.ui
 ./widgets/test.py
