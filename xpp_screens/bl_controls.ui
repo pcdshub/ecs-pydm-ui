@@ -53,8 +53,8 @@
           <rect>
            <x>0</x>
            <y>0</y>
-           <width>718</width>
-           <height>1167</height>
+           <width>726</width>
+           <height>1180</height>
           </rect>
          </property>
          <property name="minimumSize">
@@ -69,10 +69,10 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
-              <weight>50</weight>
+              <weight>75</weight>
               <italic>false</italic>
-              <bold>false</bold>
-              <underline>false</underline>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
@@ -339,6 +339,12 @@
              </item>
              <item row="0" column="0">
               <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="toolTip">
                 <string/>
                </property>
@@ -427,6 +433,9 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
@@ -575,6 +584,9 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
@@ -660,10 +672,13 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
-             <string>CRL</string>
+             <string>CRLs</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_6">
              <item>
@@ -763,6 +778,9 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
@@ -831,6 +849,9 @@
             <property name="font">
              <font>
               <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>true</underline>
              </font>
             </property>
             <property name="title">
