@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>770</width>
-    <height>1250</height>
+    <height>1264</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -54,7 +54,7 @@
            <x>0</x>
            <y>0</y>
            <width>726</width>
-           <height>1180</height>
+           <height>1194</height>
           </rect>
          </property>
          <property name="minimumSize">
@@ -70,7 +70,6 @@
              <font>
               <pointsize>10</pointsize>
               <weight>75</weight>
-              <italic>false</italic>
               <bold>true</bold>
               <underline>true</underline>
              </font>
@@ -79,351 +78,401 @@
              <string>Cameras and utilities</string>
             </property>
             <layout class="QGridLayout" name="gridLayout">
-             <item row="1" column="1">
-              <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
-               <property name="minimumSize">
-                <size>
-                 <width>170</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="text">
-                <string>Striptool GDET</string>
-               </property>
-               <property name="alarmSensitiveContent" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="alarmSensitiveBorder" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="PyDMToolTip" stdset="0">
-                <string/>
-               </property>
-               <property name="channel" stdset="0">
-                <string/>
-               </property>
-               <property name="showConfirmDialog" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="confirmMessage" stdset="0">
-                <string>Are you sure you want to proceed?</string>
-               </property>
-               <property name="environmentVariables" stdset="0">
-                <string/>
-               </property>
-               <property name="showIcon" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="redirectCommandOutput" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="allowMultipleExecutions" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="titles" stdset="0">
-                <stringlist/>
-               </property>
-               <property name="commands" stdset="0">
-                <stringlist>
-                 <string>striptool_gas</string>
-                </stringlist>
-               </property>
-               <property name="passwordProtected" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="password" stdset="0">
-                <string/>
-               </property>
-               <property name="protectedPassword" stdset="0">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="0">
-              <widget class="PyDMShellCommand" name="PyDMShellCommand">
-               <property name="minimumSize">
-                <size>
-                 <width>170</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="text">
-                <string>Grafana XPP</string>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>16</width>
-                 <height>16</height>
-                </size>
-               </property>
-               <property name="alarmSensitiveContent" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="alarmSensitiveBorder" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="PyDMToolTip" stdset="0">
-                <string/>
-               </property>
-               <property name="channel" stdset="0">
-                <string/>
-               </property>
-               <property name="showConfirmDialog" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="confirmMessage" stdset="0">
-                <string>Are you sure you want to proceed?</string>
-               </property>
-               <property name="environmentVariables" stdset="0">
-                <string/>
-               </property>
-               <property name="showIcon" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="redirectCommandOutput" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="allowMultipleExecutions" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="titles" stdset="0">
-                <stringlist/>
-               </property>
-               <property name="commands" stdset="0">
-                <stringlist>
-                 <string>grafana_xpp</string>
-                </stringlist>
-               </property>
-               <property name="passwordProtected" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="password" stdset="0">
-                <string/>
-               </property>
-               <property name="protectedPassword" stdset="0">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="2">
-              <widget class="PyDMShellCommand" name="PyDMShellCommand_5">
-               <property name="minimumSize">
-                <size>
-                 <width>170</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="text">
-                <string>xppcam3</string>
-               </property>
-               <property name="alarmSensitiveContent" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="alarmSensitiveBorder" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="PyDMToolTip" stdset="0">
-                <string/>
-               </property>
-               <property name="channel" stdset="0">
-                <string/>
-               </property>
-               <property name="showConfirmDialog" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="confirmMessage" stdset="0">
-                <string>Are you sure you want to proceed?</string>
-               </property>
-               <property name="environmentVariables" stdset="0">
-                <string/>
-               </property>
-               <property name="showIcon" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="redirectCommandOutput" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="allowMultipleExecutions" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="titles" stdset="0">
-                <stringlist/>
-               </property>
-               <property name="commands" stdset="0">
-                <stringlist>
-                 <string>xppcam3</string>
-                </stringlist>
-               </property>
-               <property name="passwordProtected" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="password" stdset="0">
-                <string/>
-               </property>
-               <property name="protectedPassword" stdset="0">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="1">
-              <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
-               <property name="minimumSize">
-                <size>
-                 <width>170</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="text">
-                <string>xppcam2</string>
-               </property>
-               <property name="alarmSensitiveContent" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="alarmSensitiveBorder" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="PyDMToolTip" stdset="0">
-                <string/>
-               </property>
-               <property name="channel" stdset="0">
-                <string/>
-               </property>
-               <property name="showConfirmDialog" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="confirmMessage" stdset="0">
-                <string>Are you sure you want to proceed?</string>
-               </property>
-               <property name="environmentVariables" stdset="0">
-                <string/>
-               </property>
-               <property name="showIcon" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="redirectCommandOutput" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="allowMultipleExecutions" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="titles" stdset="0">
-                <stringlist/>
-               </property>
-               <property name="commands" stdset="0">
-                <stringlist>
-                 <string>xppcam2</string>
-                </stringlist>
-               </property>
-               <property name="passwordProtected" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="password" stdset="0">
-                <string/>
-               </property>
-               <property name="protectedPassword" stdset="0">
-                <string/>
-               </property>
-              </widget>
-             </item>
              <item row="0" column="0">
-              <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+              <widget class="QWidget" name="gridWidget" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
                </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="macros" stdset="0">
-                <string>{&quot;HUTCH&quot;: &quot;xpp&quot;}</string>
-               </property>
-               <property name="filename" stdset="0">
-                <string>../widgets/gige_menu.py</string>
-               </property>
-               <property name="loadWhenShown" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="disconnectWhenHidden" stdset="0">
-                <bool>true</bool>
-               </property>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="horizontalSpacing">
+                 <number>6</number>
+                </property>
+                <item row="0" column="0">
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;HUTCH&quot;: &quot;xpp&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/gige_menu.py</string>
+                  </property>
+                  <property name="loadWhenShown" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="disconnectWhenHidden" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="PyDMShellCommand" name="PyDMShellCommand">
+                  <property name="minimumSize">
+                   <size>
+                    <width>170</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="text">
+                   <string>Grafana XPP</string>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>16</width>
+                    <height>16</height>
+                   </size>
+                  </property>
+                  <property name="alarmSensitiveContent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="alarmSensitiveBorder" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="PyDMToolTip" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="channel" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showConfirmDialog" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="confirmMessage" stdset="0">
+                   <string>Are you sure you want to proceed?</string>
+                  </property>
+                  <property name="environmentVariables" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showIcon" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="redirectCommandOutput" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="allowMultipleExecutions" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="titles" stdset="0">
+                   <stringlist/>
+                  </property>
+                  <property name="commands" stdset="0">
+                   <stringlist>
+                    <string>grafana_xpp</string>
+                   </stringlist>
+                  </property>
+                  <property name="passwordProtected" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="password" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="protectedPassword" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="2">
+                 <widget class="PyDMShellCommand" name="PyDMShellCommand_5">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>170</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="text">
+                   <string>xppcam3</string>
+                  </property>
+                  <property name="alarmSensitiveContent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="alarmSensitiveBorder" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="PyDMToolTip" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="channel" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showConfirmDialog" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="confirmMessage" stdset="0">
+                   <string>Are you sure you want to proceed?</string>
+                  </property>
+                  <property name="environmentVariables" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showIcon" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="redirectCommandOutput" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="allowMultipleExecutions" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="titles" stdset="0">
+                   <stringlist/>
+                  </property>
+                  <property name="commands" stdset="0">
+                   <stringlist>
+                    <string>xppcam3</string>
+                   </stringlist>
+                  </property>
+                  <property name="passwordProtected" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="password" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="protectedPassword" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>170</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="text">
+                   <string>Striptool GDET</string>
+                  </property>
+                  <property name="alarmSensitiveContent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="alarmSensitiveBorder" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="PyDMToolTip" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="channel" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showConfirmDialog" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="confirmMessage" stdset="0">
+                   <string>Are you sure you want to proceed?</string>
+                  </property>
+                  <property name="environmentVariables" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showIcon" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="redirectCommandOutput" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="allowMultipleExecutions" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="titles" stdset="0">
+                   <stringlist/>
+                  </property>
+                  <property name="commands" stdset="0">
+                   <stringlist>
+                    <string>striptool_gas</string>
+                   </stringlist>
+                  </property>
+                  <property name="passwordProtected" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="password" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="protectedPassword" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>170</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="text">
+                   <string>xppcam2</string>
+                  </property>
+                  <property name="alarmSensitiveContent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="alarmSensitiveBorder" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="PyDMToolTip" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="channel" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showConfirmDialog" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="confirmMessage" stdset="0">
+                   <string>Are you sure you want to proceed?</string>
+                  </property>
+                  <property name="environmentVariables" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showIcon" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="redirectCommandOutput" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="allowMultipleExecutions" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="titles" stdset="0">
+                   <stringlist/>
+                  </property>
+                  <property name="commands" stdset="0">
+                   <stringlist>
+                    <string>xppcam2</string>
+                   </stringlist>
+                  </property>
+                  <property name="passwordProtected" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="password" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="protectedPassword" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="PyDMShellCommand" name="PyDMShellCommand_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>170</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="text">
+                   <string>xppcam1</string>
+                  </property>
+                  <property name="alarmSensitiveContent" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="alarmSensitiveBorder" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="PyDMToolTip" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="channel" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showConfirmDialog" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="confirmMessage" stdset="0">
+                   <string>Are you sure you want to proceed?</string>
+                  </property>
+                  <property name="environmentVariables" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="showIcon" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="redirectCommandOutput" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="allowMultipleExecutions" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="titles" stdset="0">
+                   <stringlist/>
+                  </property>
+                  <property name="commands" stdset="0">
+                   <stringlist>
+                    <string>/cds/home/opr/xppopr/bin/xppcam1</string>
+                   </stringlist>
+                  </property>
+                  <property name="passwordProtected" stdset="0">
+                   <bool>false</bool>
+                  </property>
+                  <property name="password" stdset="0">
+                   <string/>
+                  </property>
+                  <property name="protectedPassword" stdset="0">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
               </widget>
              </item>
-             <item row="2" column="0">
-              <widget class="PyDMShellCommand" name="PyDMShellCommand_3">
-               <property name="minimumSize">
+             <item row="0" column="1">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
                 <size>
-                 <width>170</width>
-                 <height>0</height>
+                 <width>40</width>
+                 <height>20</height>
                 </size>
                </property>
-               <property name="toolTip">
-                <string/>
-               </property>
-               <property name="text">
-                <string>xppcam1</string>
-               </property>
-               <property name="alarmSensitiveContent" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="alarmSensitiveBorder" stdset="0">
-                <bool>true</bool>
-               </property>
-               <property name="PyDMToolTip" stdset="0">
-                <string/>
-               </property>
-               <property name="channel" stdset="0">
-                <string/>
-               </property>
-               <property name="showConfirmDialog" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="confirmMessage" stdset="0">
-                <string>Are you sure you want to proceed?</string>
-               </property>
-               <property name="environmentVariables" stdset="0">
-                <string/>
-               </property>
-               <property name="showIcon" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="redirectCommandOutput" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="allowMultipleExecutions" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="titles" stdset="0">
-                <stringlist/>
-               </property>
-               <property name="commands" stdset="0">
-                <stringlist>
-                 <string>/cds/home/opr/xppopr/bin/xppcam1</string>
-                </stringlist>
-               </property>
-               <property name="passwordProtected" stdset="0">
-                <bool>false</bool>
-               </property>
-               <property name="password" stdset="0">
-                <string/>
-               </property>
-               <property name="protectedPassword" stdset="0">
-                <string/>
-               </property>
-              </widget>
+              </spacer>
              </item>
             </layout>
            </widget>
@@ -443,138 +492,147 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_12">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_12">
-               <property name="leftMargin">
-                <number>0</number>
+              <widget class="QWidget" name="HWidget_3" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
                </property>
-               <property name="topMargin">
-                <number>0</number>
-               </property>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_11">
-                 <property name="topMargin">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_3">
-                   <item>
-                    <widget class="PyDMEmbeddedDisplay" name="lodcm">
-                     <property name="toolTip">
-                      <string/>
-                     </property>
-                     <property name="macros" stdset="0">
-                      <string>{&quot;LABEL&quot;:&quot;LODCM&quot;,&quot;PV&quot;:&quot;XPP:LODCM:H1N&quot;}</string>
-                     </property>
-                     <property name="filename" stdset="0">
-                      <string>../widgets/enum_label.ui</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <spacer name="horizontalSpacer_3">
-                     <property name="orientation">
-                      <enum>Qt::Horizontal</enum>
-                     </property>
-                     <property name="sizeHint" stdset="0">
-                      <size>
-                       <width>40</width>
-                       <height>20</height>
-                      </size>
-                     </property>
-                    </spacer>
-                   </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_11">
-                   <item>
-                    <widget class="PyDMEmbeddedDisplay" name="timetool">
-                     <property name="toolTip">
-                      <string/>
-                     </property>
-                     <property name="macros" stdset="0">
-                      <string>{&quot;LABEL&quot;:&quot;Timetool&quot;,&quot;PV&quot;:&quot;XPP:TIMETOOL:GO&quot;}</string>
-                     </property>
-                     <property name="filename" stdset="0">
-                      <string>../widgets/enum_label.ui</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <spacer name="horizontalSpacer_4">
-                     <property name="orientation">
-                      <enum>Qt::Horizontal</enum>
-                     </property>
-                     <property name="sizeHint" stdset="0">
-                      <size>
-                       <width>40</width>
-                       <height>20</height>
-                      </size>
-                     </property>
-                    </spacer>
-                   </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_10">
-                   <property name="spacing">
-                    <number>7</number>
-                   </property>
-                   <property name="leftMargin">
-                    <number>0</number>
-                   </property>
-                   <property name="rightMargin">
-                    <number>0</number>
-                   </property>
-                  </layout>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="pp">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>260</width>
-                   <height>200</height>
-                  </size>
-                 </property>
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;MOTOR&quot;: &quot;XPP:SB2:MMS:16&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/positioner_compact.ui</string>
-                 </property>
-                 <property name="loadWhenShown" stdset="0">
-                  <bool>true</bool>
-                 </property>
-                 <property name="disconnectWhenHidden" stdset="0">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <spacer name="horizontalSpacer_6">
-                 <property name="orientation">
-                  <enum>Qt::Horizontal</enum>
-                 </property>
-                 <property name="sizeHint" stdset="0">
-                  <size>
-                   <width>40</width>
-                   <height>20</height>
-                  </size>
-                 </property>
-                </spacer>
-               </item>
-              </layout>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <property name="leftMargin">
+                 <number>1</number>
+                </property>
+                <property name="topMargin">
+                 <number>1</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <item>
+                     <widget class="PyDMEmbeddedDisplay" name="lodcm">
+                      <property name="toolTip">
+                       <string/>
+                      </property>
+                      <property name="macros" stdset="0">
+                       <string>{&quot;LABEL&quot;:&quot;LODCM&quot;,&quot;PV&quot;:&quot;XPP:LODCM:H1N&quot;}</string>
+                      </property>
+                      <property name="filename" stdset="0">
+                       <string>../widgets/enum_label.ui</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_3">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_11">
+                    <item>
+                     <widget class="PyDMEmbeddedDisplay" name="timetool">
+                      <property name="toolTip">
+                       <string/>
+                      </property>
+                      <property name="macros" stdset="0">
+                       <string>{&quot;LABEL&quot;:&quot;Timetool&quot;,&quot;PV&quot;:&quot;XPP:TIMETOOL:GO&quot;}</string>
+                      </property>
+                      <property name="filename" stdset="0">
+                       <string>../widgets/enum_label.ui</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_10">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="pp">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>260</width>
+                    <height>200</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;MOTOR&quot;: &quot;XPP:SB2:MMS:16&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/positioner_compact.ui</string>
+                  </property>
+                  <property name="loadWhenShown" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="disconnectWhenHidden" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_6">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>40</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -593,57 +651,96 @@
              <string>IPMs</string>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_3">
-               <property name="spacing">
-                <number>0</number>
+              <widget class="QWidget" name="VWidget_2" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
                </property>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;IPM&quot;:&quot;HX2:SB1:IPM&quot;,&quot;BMMON&quot;:&quot;HX2:SB1:BMMON&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/ipm_small.ui</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;IPM&quot;:&quot;XPP:SB2:IPM&quot;,&quot;BMMON&quot;:&quot;XPP:SB2:BMMON&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/ipm_small.ui</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;IPM&quot;: &quot;XPP:SB3:IPM&quot;, &quot;BMMON&quot;: &quot;XPP:SB3:W82&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/ipm_small.ui</string>
-                 </property>
-                 <property name="loadWhenShown" stdset="0">
-                  <bool>true</bool>
-                 </property>
-                 <property name="disconnectWhenHidden" stdset="0">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;IPM&quot;:&quot;HX2:SB1:IPM&quot;,&quot;BMMON&quot;:&quot;HX2:SB1:BMMON&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/ipm_small.ui</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;IPM&quot;:&quot;XPP:SB2:IPM&quot;,&quot;BMMON&quot;:&quot;XPP:SB2:BMMON&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/ipm_small.ui</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;IPM&quot;: &quot;XPP:SB3:IPM&quot;, &quot;BMMON&quot;: &quot;XPP:SB3:W82&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/ipm_small.ui</string>
+                  </property>
+                  <property name="loadWhenShown" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                  <property name="disconnectWhenHidden" stdset="0">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
              </item>
              <item>
               <spacer name="horizontalSpacer_5">
@@ -682,93 +779,148 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_6">
              <item>
-              <layout class="QVBoxLayout" name="verticalLayout_5">
-               <item>
-                <layout class="QHBoxLayout" name="horizontalLayout_5">
-                 <item>
-                  <widget class="QLabel" name="label">
-                   <property name="minimumSize">
-                    <size>
-                     <width>100</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>Lens pack</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="PyDMEnumComboBox" name="PyDMEnumComboBox">
-                   <property name="minimumSize">
-                    <size>
-                     <width>100</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="toolTip">
-                    <string/>
-                   </property>
-                   <property name="channel" stdset="0">
-                    <string>ca://XPP:SB2:XFLS:GO</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <spacer name="horizontalSpacer">
-                   <property name="orientation">
-                    <enum>Qt::Horizontal</enum>
-                   </property>
-                   <property name="sizeHint" stdset="0">
-                    <size>
-                     <width>40</width>
-                     <height>20</height>
-                    </size>
-                   </property>
-                  </spacer>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:13&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/positioner_row.ui</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:14&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/positioner_row.ui</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:15&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/positioner_row.ui</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+              <widget class="QWidget" name="VWidget" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_5">
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string>Lens pack</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="PyDMLabel" name="PyDMLabel">
+                    <property name="minimumSize">
+                     <size>
+                      <width>75</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="toolTip">
+                     <string/>
+                    </property>
+                    <property name="precision" stdset="0">
+                     <number>0</number>
+                    </property>
+                    <property name="showUnits" stdset="0">
+                     <bool>false</bool>
+                    </property>
+                    <property name="precisionFromPV" stdset="0">
+                     <bool>true</bool>
+                    </property>
+                    <property name="alarmSensitiveContent" stdset="0">
+                     <bool>false</bool>
+                    </property>
+                    <property name="alarmSensitiveBorder" stdset="0">
+                     <bool>true</bool>
+                    </property>
+                    <property name="PyDMToolTip" stdset="0">
+                     <string/>
+                    </property>
+                    <property name="channel" stdset="0">
+                     <string>ca://XPP:SB2:XFLS.VAL</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="PyDMEnumComboBox" name="PyDMEnumComboBox">
+                    <property name="minimumSize">
+                     <size>
+                      <width>100</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="toolTip">
+                     <string/>
+                    </property>
+                    <property name="channel" stdset="0">
+                     <string>ca://XPP:SB2:XFLS:GO</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:13&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/positioner_row.ui</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:14&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/positioner_row.ui</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;MOTOR&quot;:&quot;XPP:SB2:MMS:15&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/positioner_row.ui</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -788,58 +940,67 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_7">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_6">
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;PIM&quot;:&quot;HX2:SB1&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/yag.ui</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
-                 <property name="sizePolicy">
-                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                   <horstretch>0</horstretch>
-                   <verstretch>0</verstretch>
-                  </sizepolicy>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>16777215</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="toolTip">
-                  <string/>
-                 </property>
-                 <property name="macros" stdset="0">
-                  <string>{&quot;PIM&quot;:&quot;XPP:SB3&quot;}</string>
-                 </property>
-                 <property name="filename" stdset="0">
-                  <string>../widgets/yag.ui</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+              <widget class="QWidget" name="HWidget" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;PIM&quot;:&quot;HX2:SB1&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/yag.ui</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="toolTip">
+                   <string/>
+                  </property>
+                  <property name="macros" stdset="0">
+                   <string>{&quot;PIM&quot;:&quot;XPP:SB3&quot;}</string>
+                  </property>
+                  <property name="filename" stdset="0">
+                   <string>../widgets/yag.ui</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -859,110 +1020,119 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_9">
              <item>
-              <layout class="QHBoxLayout" name="horizontalLayout_8">
-               <property name="spacing">
-                <number>0</number>
+              <widget class="QWidget" name="HWidget_2" native="true">
+               <property name="font">
+                <font>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                </font>
                </property>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_7">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <widget class="QLabel" name="label_2">
-                   <property name="font">
-                    <font>
-                     <weight>75</weight>
-                     <bold>true</bold>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>LP</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
-                   <property name="toolTip">
-                    <string/>
-                   </property>
-                   <property name="macros" stdset="0">
-                    <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:14&quot;, &quot;VAL&quot;:4.5}</string>
-                   </property>
-                   <property name="filename" stdset="0">
-                    <string>../widgets/acromag_ao_shutter.ui</string>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_8">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <widget class="QLabel" name="label_3">
-                   <property name="font">
-                    <font>
-                     <weight>75</weight>
-                     <bold>true</bold>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>EP</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
-                   <property name="toolTip">
-                    <string/>
-                   </property>
-                   <property name="macros" stdset="0">
-                    <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:13&quot;, &quot;VAL&quot;:4.5}</string>
-                   </property>
-                   <property name="filename" stdset="0">
-                    <string>../widgets/acromag_ao_shutter.ui</string>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-               <item>
-                <layout class="QVBoxLayout" name="verticalLayout_9">
-                 <property name="spacing">
-                  <number>0</number>
-                 </property>
-                 <item>
-                  <widget class="QLabel" name="label_4">
-                   <property name="font">
-                    <font>
-                     <weight>75</weight>
-                     <bold>true</bold>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>CP</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
-                   <property name="toolTip">
-                    <string/>
-                   </property>
-                   <property name="macros" stdset="0">
-                    <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:15&quot;, &quot;VAL&quot;:4.5}</string>
-                   </property>
-                   <property name="filename" stdset="0">
-                    <string>../widgets/acromag_ao_shutter.ui</string>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </item>
-              </layout>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_2">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>LP</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
+                    <property name="toolTip">
+                     <string/>
+                    </property>
+                    <property name="macros" stdset="0">
+                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:14&quot;, &quot;VAL&quot;:4.5}</string>
+                    </property>
+                    <property name="filename" stdset="0">
+                     <string>../widgets/acromag_ao_shutter.ui</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_3">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>EP</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
+                    <property name="toolTip">
+                     <string/>
+                    </property>
+                    <property name="macros" stdset="0">
+                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:13&quot;, &quot;VAL&quot;:4.5}</string>
+                    </property>
+                    <property name="filename" stdset="0">
+                     <string>../widgets/acromag_ao_shutter.ui</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_9">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_4">
+                    <property name="font">
+                     <font>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>CP</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
+                    <property name="toolTip">
+                     <string/>
+                    </property>
+                    <property name="macros" stdset="0">
+                     <string>{&quot;AO&quot;:&quot;XPP:USR:ao1:15&quot;, &quot;VAL&quot;:4.5}</string>
+                    </property>
+                    <property name="filename" stdset="0">
+                     <string>../widgets/acromag_ao_shutter.ui</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -977,6 +1147,11 @@
   </layout>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
   <customwidget>
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
