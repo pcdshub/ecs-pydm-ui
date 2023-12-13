@@ -50,7 +50,7 @@
          <string>{&quot;MOTOR&quot;: &quot;${BASE}:m${AXIS}&quot;}</string>
         </property>
         <property name="filename" stdset="0">
-         <string>./motor_small.ui</string>
+         <string>./positioner_row.ui</string>
         </property>
         <property name="loadWhenShown" stdset="0">
          <bool>true</bool>
