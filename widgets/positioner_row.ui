@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>678</width>
+    <width>721</width>
     <height>45</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
   <property name="minimumSize">
    <size>
     <width>600</width>
-    <height>33</height>
+    <height>45</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -49,6 +49,11 @@
    </property>
    <item>
     <widget class="QFrame" name="main_frame">
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
      <property name="frameShape">
       <enum>QFrame::Box</enum>
      </property>
@@ -168,6 +173,11 @@
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
         <property name="toolTip">
          <string/>
         </property>
@@ -204,6 +214,13 @@
           <width>75</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
         <property name="toolTip">
          <string/>
@@ -248,6 +265,11 @@
           <height>0</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
         <property name="toolTip">
          <string/>
         </property>
@@ -281,6 +303,13 @@
           <width>75</width>
           <height>16777215</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
         </property>
         <property name="toolTip">
          <string/>
@@ -388,6 +417,7 @@
         </property>
         <property name="font">
          <font>
+          <pointsize>10</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -411,6 +441,12 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="maximumSize">
+         <size>
+          <width>15</width>
+          <height>15</height>
+         </size>
+        </property>
         <property name="toolTip">
          <string/>
         </property>
@@ -425,6 +461,13 @@
         </property>
         <property name="channel" stdset="0">
          <string>ca://${MOTOR}.LLS</string>
+        </property>
+        <property name="onColor" stdset="0">
+         <color>
+          <red>255</red>
+          <green>165</green>
+          <blue>0</blue>
+         </color>
         </property>
         <property name="showLabels" stdset="0">
          <bool>false</bool>
@@ -456,6 +499,12 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="maximumSize">
+         <size>
+          <width>15</width>
+          <height>15</height>
+         </size>
+        </property>
         <property name="toolTip">
          <string/>
         </property>
@@ -470,6 +519,13 @@
         </property>
         <property name="channel" stdset="0">
          <string>ca://${MOTOR}.HLS</string>
+        </property>
+        <property name="onColor" stdset="0">
+         <color>
+          <red>255</red>
+          <green>165</green>
+          <blue>0</blue>
+         </color>
         </property>
         <property name="showLabels" stdset="0">
          <bool>false</bool>
