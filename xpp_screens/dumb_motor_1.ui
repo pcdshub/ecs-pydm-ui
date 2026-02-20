@@ -6,24 +6,24 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>975</height>
+    <width>845</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>750</width>
-    <height>600</height>
+    <width>845</width>
+    <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>16777215</width>
-    <height>1200</height>
+    <height>1450</height>
    </size>
   </property>
   <property name="windowTitle">
-   <string>Laser Controls</string>
+   <string>Form</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -36,12 +36,12 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>726</width>
-        <height>951</height>
+        <width>804</width>
+        <height>1079</height>
        </rect>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
          <property name="toolTip">
           <string/>
@@ -50,7 +50,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:01&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -63,7 +63,7 @@
          </property>
         </widget>
        </item>
-       <item>
+       <item row="0" column="1">
         <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
          <property name="toolTip">
           <string/>
@@ -72,7 +72,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:02&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -85,8 +85,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+       <item row="1" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
          <property name="toolTip">
           <string/>
          </property>
@@ -94,7 +94,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:03&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -107,8 +107,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+       <item row="1" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
          <property name="toolTip">
           <string/>
          </property>
@@ -116,7 +116,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:04&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -129,8 +129,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
+       <item row="2" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
          <property name="toolTip">
           <string/>
          </property>
@@ -138,7 +138,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:05&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -151,8 +151,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+       <item row="2" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_13">
          <property name="toolTip">
           <string/>
          </property>
@@ -160,7 +160,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:06&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -173,8 +173,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+       <item row="3" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
          <property name="toolTip">
           <string/>
          </property>
@@ -182,7 +182,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:07&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -195,8 +195,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
+       <item row="3" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
          <property name="toolTip">
           <string/>
          </property>
@@ -204,7 +204,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:08&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -217,8 +217,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
+       <item row="4" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
          <property name="toolTip">
           <string/>
          </property>
@@ -226,7 +226,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:09&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -239,8 +239,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
+       <item row="4" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
          <property name="toolTip">
           <string/>
          </property>
@@ -248,7 +248,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:10&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -261,8 +261,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
+       <item row="5" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
          <property name="toolTip">
           <string/>
          </property>
@@ -270,7 +270,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:11&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -283,8 +283,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_16">
+       <item row="5" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
          <property name="toolTip">
           <string/>
          </property>
@@ -292,7 +292,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:12&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -305,8 +305,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_12">
+       <item row="6" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_16">
          <property name="toolTip">
           <string/>
          </property>
@@ -314,7 +314,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:13&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -327,8 +327,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_13">
+       <item row="6" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_15">
          <property name="toolTip">
           <string/>
          </property>
@@ -336,7 +336,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:14&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -349,8 +349,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
+       <item row="7" column="0">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_17">
          <property name="toolTip">
           <string/>
          </property>
@@ -358,7 +358,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:15&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>
@@ -371,8 +371,8 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_15">
+       <item row="7" column="1">
+        <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
          <property name="toolTip">
           <string/>
          </property>
@@ -380,7 +380,7 @@
           <string>{&quot;MOTOR&quot;: &quot;XPP:USR:01:MMS:16&quot;}</string>
          </property>
          <property name="filename" stdset="0">
-          <string>../widgets/positioner_row.ui</string>
+          <string>../widgets/positioner.ui</string>
          </property>
          <property name="loadWhenShown" stdset="0">
           <bool>true</bool>

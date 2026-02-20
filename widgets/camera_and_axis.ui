@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>350</width>
-    <height>370</height>
+    <width>650</width>
+    <height>460</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>350</width>
+    <width>650</width>
     <height>370</height>
    </size>
   </property>
@@ -21,7 +21,7 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0">
      <property name="spacing">
       <number>0</number>
      </property>
@@ -74,14 +74,14 @@
        </property>
        <property name="minimumSize">
         <size>
-         <width>200</width>
-         <height>62</height>
+         <width>0</width>
+         <height>0</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
          <width>16777215</width>
-         <height>60</height>
+         <height>1200</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -122,13 +122,16 @@
            <string>{&quot;MOTOR&quot;: &quot;${MOT1}&quot;}</string>
           </property>
           <property name="filename" stdset="0">
-           <string>./widgets/motor_tweak.ui</string>
+           <string>positioner_tweak.ui</string>
           </property>
           <property name="loadWhenShown" stdset="0">
            <bool>true</bool>
           </property>
           <property name="disconnectWhenHidden" stdset="0">
            <bool>true</bool>
+          </property>
+          <property name="followSymlinks" stdset="0">
+           <bool>false</bool>
           </property>
          </widget>
         </item>
@@ -141,13 +144,16 @@
            <string>{&quot;MOTOR&quot;: &quot;${MOT2}&quot;}</string>
           </property>
           <property name="filename" stdset="0">
-           <string>./widgets/motor_tweak.ui</string>
+           <string>positioner_tweak.ui</string>
           </property>
           <property name="loadWhenShown" stdset="0">
            <bool>true</bool>
           </property>
           <property name="disconnectWhenHidden" stdset="0">
            <bool>true</bool>
+          </property>
+          <property name="followSymlinks" stdset="0">
+           <bool>false</bool>
           </property>
          </widget>
         </item>

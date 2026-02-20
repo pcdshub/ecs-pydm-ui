@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>753</width>
+    <width>625</width>
     <height>55</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>700</width>
+    <width>625</width>
     <height>45</height>
    </size>
   </property>
@@ -60,7 +60,7 @@
      <property name="frameShadow">
       <enum>QFrame::Sunken</enum>
      </property>
-     <layout class="QGridLayout" name="gridLayout" columnstretch="4,1,0,1,5,0,3,0,1,2,1,0,1,1">
+     <layout class="QGridLayout" name="gridLayout" columnstretch="4,0,0,0,0,0,0,0,0,0,0,0,0">
       <property name="leftMargin">
        <number>1</number>
       </property>
@@ -76,7 +76,7 @@
       <property name="spacing">
        <number>5</number>
       </property>
-      <item row="0" column="10">
+      <item row="0" column="9">
        <widget class="PyDMPushButton" name="PyDMPushButton_twkR">
         <property name="minimumSize">
          <size>
@@ -271,7 +271,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="13">
+      <item row="0" column="12">
        <widget class="PyDMShellCommand" name="PyDMShellCommand">
         <property name="toolTip">
          <string/>
@@ -286,7 +286,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="9">
+      <item row="0" column="8">
        <widget class="PyDMLineEdit" name="PyDMLineEdit">
         <property name="minimumSize">
          <size>
@@ -436,7 +436,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="7">
+      <item row="0" column="6">
        <widget class="PyDMByteIndicator" name="PyDMByteIndicator_mvn">
         <property name="enabled">
          <bool>false</bool>
@@ -493,7 +493,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="8">
+      <item row="0" column="7">
        <widget class="PyDMPushButton" name="PyDMPushButton_twkL">
         <property name="minimumSize">
          <size>
@@ -548,7 +548,7 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="12">
+      <item row="0" column="11">
        <widget class="PyDMPushButton" name="PyDMPushButton_stop">
         <property name="minimumSize">
          <size>
@@ -576,54 +576,6 @@
         </property>
         <property name="pressValue" stdset="0">
          <string>1</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="6">
-       <widget class="PyDMLineEdit" name="PyDMLineEdit_setpoint">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>75</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>11</pointsize>
-         </font>
-        </property>
-        <property name="toolTip">
-         <string/>
-        </property>
-        <property name="precision" stdset="0">
-         <number>3</number>
-        </property>
-        <property name="showUnits" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="precisionFromPV" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="alarmSensitiveContent" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="alarmSensitiveBorder" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="channel" stdset="0">
-         <string>ca://${MOTOR}.VAL</string>
-        </property>
-        <property name="displayFormat" stdset="0">
-         <enum>PyDMLineEdit::Default</enum>
         </property>
        </widget>
       </item>
