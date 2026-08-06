@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>750</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>1200</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Laser Controls</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>726</width>
+        <height>536</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_15">
+       <item>
+        <widget class="QGroupBox" name="delays">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="title">
+          <string>THz Motion</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:01&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:02&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:03&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:04&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:05&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:07&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:USR:MMN:08&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_9">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:14&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="followSymlinks" stdset="0">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="opa">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <italic>true</italic>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="title">
+          <string>OPA</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_19">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:10&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="macros" stdset="0">
+             <string>{&quot;MOTOR&quot;: &quot;XPP:LAS:MMN:09&quot;}</string>
+            </property>
+            <property name="filename" stdset="0">
+             <string>../widgets/positioner_row.ui</string>
+            </property>
+            <property name="loadWhenShown" stdset="0">
+             <bool>true</bool>
+            </property>
+            <property name="disconnectWhenHidden" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_14">
+               <property name="toolTip">
+                <string/>
+               </property>
+               <property name="macros" stdset="0">
+                <string>{&quot;MOTOR&quot;: &quot;LMXPP:MCS2:01:m10&quot;}</string>
+               </property>
+               <property name="filename" stdset="0">
+                <string>../widgets/smaract_open_loop.ui</string>
+               </property>
+               <property name="loadWhenShown" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="disconnectWhenHidden" stdset="0">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_15">
+               <property name="toolTip">
+                <string/>
+               </property>
+               <property name="macros" stdset="0">
+                <string>{&quot;MOTOR&quot;: &quot;LMXPP:MCS2:01:m11&quot;}</string>
+               </property>
+               <property name="filename" stdset="0">
+                <string>../widgets/smaract_open_loop.ui</string>
+               </property>
+               <property name="loadWhenShown" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="disconnectWhenHidden" stdset="0">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

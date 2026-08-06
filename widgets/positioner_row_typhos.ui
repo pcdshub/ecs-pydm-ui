@@ -400,6 +400,13 @@
         <property name="channel" stdset="0">
          <string>ca://${MOTOR}.LLS</string>
         </property>
+        <property name="onColor" stdset="0">
+         <color>
+          <red>240</red>
+          <green>128</green>
+          <blue>0</blue>
+         </color>
+        </property>
         <property name="showLabels" stdset="0">
          <bool>false</bool>
         </property>
@@ -530,6 +537,13 @@
         </property>
         <property name="channel" stdset="0">
          <string>ca://${MOTOR}.HLS</string>
+        </property>
+        <property name="onColor" stdset="0">
+         <color>
+          <red>240</red>
+          <green>128</green>
+          <blue>0</blue>
+         </color>
         </property>
         <property name="showLabels" stdset="0">
          <bool>false</bool>

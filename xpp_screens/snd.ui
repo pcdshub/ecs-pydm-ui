@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>220</height>
+    <height>680</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>800</width>
-    <height>220</height>
+    <height>680</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -47,6 +47,243 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_2">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m1&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_3">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m2&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_4">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m3&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_5">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m4&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_6">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m5&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m6&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_8">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="macros" stdset="0">
+        <string>{&quot;MOTOR&quot;: &quot;XPP:ENS:01:m7&quot;}</string>
+       </property>
+       <property name="filename" stdset="0">
+        <string>../widgets/positioner_row.ui</string>
+       </property>
+       <property name="loadWhenShown" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="disconnectWhenHidden" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="followSymlinks" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PyDMShellCommand" name="PyDMShellCommand">
+       <property name="toolTip">
+        <string/>
+       </property>
+       <property name="text">
+        <string>Expert screens</string>
+       </property>
+       <property name="alarmSensitiveContent" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="alarmSensitiveBorder" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="PyDMToolTip" stdset="0">
+        <string/>
+       </property>
+       <property name="channel" stdset="0">
+        <string/>
+       </property>
+       <property name="PyDMIcon" stdset="0">
+        <string/>
+       </property>
+       <property name="showConfirmDialog" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="runCommandsInFullShell" stdset="0">
+        <bool>true</bool>
+       </property>
+       <property name="confirmMessage" stdset="0">
+        <string>Are you sure you want to proceed?</string>
+       </property>
+       <property name="environmentVariables" stdset="0">
+        <string/>
+       </property>
+       <property name="showIcon" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="redirectCommandOutput" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="allowMultipleExecutions" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="titles" stdset="0">
+        <stringlist/>
+       </property>
+       <property name="commands" stdset="0">
+        <stringlist>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m0 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m1 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m2 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m3 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m4 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m5 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m6 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+         <string>edm -eolc -x -m MOTOR=XPP:ENS:01:m7 /cds/group/pcds/epics-dev/espov/ioc/common/aerotech/motorScreens/ens_main.edl</string>
+        </stringlist>
+       </property>
+       <property name="passwordProtected" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="password" stdset="0">
+        <string/>
+       </property>
+       <property name="protectedPassword" stdset="0">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
     </layout>
    </item>
   </layout>
@@ -56,6 +293,11 @@
    <class>PyDMEmbeddedDisplay</class>
    <extends>QFrame</extends>
    <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMShellCommand</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.shell_command</header>
   </customwidget>
  </customwidgets>
  <resources/>

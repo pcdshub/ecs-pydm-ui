@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1680</width>
+    <height>1088</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1680</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
+   <property name="spacing">
+    <number>4</number>
+   </property>
+   <item row="3" column="1">
+    <widget class="QGroupBox" name="group_d2">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Diagnostics 2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_d2tx">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:D2Tx&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_d2ty">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:D2Ty&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>LODCM</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="group_t2">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Tower 2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t2ry">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Ry&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t2tz">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Tz&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t2tn">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Tn&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t2tp">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Tp&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t2rp">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Rp&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QGroupBox" name="group_d1">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Diagnostics 1</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_d1ty">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:D1Ty&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_d1ry">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:D1Ry&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QGroupBox" name="group_v">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Vertical alignment</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_7">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T1Ty&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_11">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Ty&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="PyDMEmbeddedDisplay_10">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T2Ty2&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="group_t1">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Tower 1</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t1ry">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T1Ry&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t1tx">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T1Tx&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t1tp">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T1Tp&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t1rp">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;SP1L2:LODCM:MMS:T1Rp&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row_tc_interlock.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Grating Beam Splitter</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>5</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="rightMargin">
+         <number>17</number>
+        </property>
+        <item>
+         <widget class="PyDMLabel" name="PyDMLabel">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="precision" stdset="0">
+           <number>0</number>
+          </property>
+          <property name="showUnits" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="precisionFromPV" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="channel" stdset="0">
+           <string>PF2L0:GBS:MMS:STATE:GET_RBV</string>
+          </property>
+          <property name="enableRichText" stdset="0">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="PyDMEnumComboBox" name="PyDMEnumComboBox">
+          <property name="toolTip">
+           <string/>
+          </property>
+          <property name="alarmSensitiveContent" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="alarmSensitiveBorder" stdset="0">
+           <bool>true</bool>
+          </property>
+          <property name="PyDMToolTip" stdset="0">
+           <string/>
+          </property>
+          <property name="monitorDisp" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="channel" stdset="0">
+           <string>PF2L0:GBS:MMS:STATE:SET</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="PyDMEmbeddedDisplay" name="w_t1ry_2">
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="macros" stdset="0">
+         <string>{&quot;MOTOR&quot;: &quot;PF2L0:GBS:MMS:Y&quot;}</string>
+        </property>
+        <property name="filename" stdset="0">
+         <string>../widgets/positioner_row.ui</string>
+        </property>
+        <property name="loadWhenShown" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="disconnectWhenHidden" stdset="0">
+         <bool>true</bool>
+        </property>
+        <property name="followSymlinks" stdset="0">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMEmbeddedDisplay</class>
+   <extends>QFrame</extends>
+   <header>pydm.widgets.embedded_display</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMEnumComboBox</class>
+   <extends>QComboBox</extends>
+   <header>pydm.widgets.enum_combo_box</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

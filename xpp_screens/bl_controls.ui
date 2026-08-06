@@ -249,7 +249,7 @@
                   </property>
                   <property name="commands" stdset="0">
                    <stringlist>
-                    <string>xppcam3</string>
+                    <string>/cds/home/opr/xppopr/bin/xppcam3</string>
                    </stringlist>
                   </property>
                   <property name="passwordProtected" stdset="0">
@@ -381,7 +381,7 @@
                   </property>
                   <property name="commands" stdset="0">
                    <stringlist>
-                    <string>xppcam2</string>
+                    <string>/cds/home/opr/xppopr/bin/xppcam2</string>
                    </stringlist>
                   </property>
                   <property name="passwordProtected" stdset="0">
@@ -763,7 +763,7 @@
             <property name="maximumSize">
              <size>
               <width>16777215</width>
-              <height>200</height>
+              <height>300</height>
              </size>
             </property>
             <property name="font">
